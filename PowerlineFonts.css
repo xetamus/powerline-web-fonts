@@ -1,10 +1,4 @@
 @font-face {
-    font-family: "ProFont Nerd";
-    src: local("ProFontWindows Nerd Font Complete Mono"),
-         url(fonts/ProFontWindows Nerd Font Complete Mono.woff2) format("woff2");
-}
-
-@font-face {
     font-family: "Anonymous Pro";
     src: local("Anonymice Powerline"),
          url(fonts/AnonymousPro.woff2) format("woff2");
@@ -65,10 +59,11 @@
     font-family: "Source Code Pro";
     src: local("Source Code Pro for Powerline"),
          local("Sauce Code Powerline"),
-         url(fonts/SourceCodePro.woff2) format("woff2");
+         url(fonts/ProFontWindows Nerd Font Complete Mono.woff2) format("woff2");
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Source Code Pro";
     src: local("Source Code Pro for Powerline"),
